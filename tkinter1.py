@@ -18,3 +18,6 @@ root.title("Aplikasi Prediksi Prodi Pilihan")
 root.geometry("520x470")
 root.resizable(False, False)
 root.configure(bg="#f0f4f8")
+
+# ---------- Label judul ----------
+label_judul = tk.Label(
