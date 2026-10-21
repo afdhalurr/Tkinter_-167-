@@ -53,3 +53,39 @@ for i, mapel in enumerate(MAPEL):
   entry = ttk.Entry(frame_input, width=8, justify="center")
     entry.grid(row=baris, column=kolom + 1, padx=(0, 20), pady=6)
     entries.append(entry)s
+
+# ---------- Button Hasil Prediksi ----------
+btn_prediksi = tk.Button(
+    root,
+    text="Hasil Prediksi",
+    font=("Segoe UI", 12, "bold"),
+    bg="#1f6feb",
+    fg="white",
+    activebackground="#1558b8",
+    activeforeground="white",
+    relief="flat",
+    padx=20,
+    pady=6,
+    command=hasil_prediksi,
+)
+btn_prediksi.pack(pady=(20, 10))
+ 
+# ---------- Label luaran hasil prediksi ----------
+tk.Label(
+    root, text="Prodi yang diprediksi:", font=("Segoe UI", 10),
+    bg="#f0f4f8", fg="#555555",
+).pack()
+ 
+label_hasil = tk.Label(
+    root,
+    text="-",
+    font=("Segoe UI", 16, "bold"),
+    bg="white",
+    fg="#198754",
+    width=28,
+    pady=8,
+    relief="groove",
+)
+label_hasil.pack(pady=(5, 15))
+ 
+root.mainloop()
