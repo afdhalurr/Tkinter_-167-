@@ -49,4 +49,7 @@ for i, mapel in enumerate(MAPEL):
         frame_input, text=mapel, font=("Segoe UI", 10),
         bg="#f0f4f8", anchor="w", width=16,
     ).grid(row=baris, column=kolom, padx=(10, 5), pady=6, sticky="w")
- 
+
+  entry = ttk.Entry(frame_input, width=8, justify="center")
+    entry.grid(row=baris, column=kolom + 1, padx=(0, 20), pady=6)
+    entries.append(entry)s
