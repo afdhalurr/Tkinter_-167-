@@ -46,3 +46,7 @@ for i, mapel in enumerate(MAPEL):
      kolom = (i // 5) * 2      # 0 atau 2
     baris = i % 5
     tk.Label(
+        frame_input, text=mapel, font=("Segoe UI", 10),
+        bg="#f0f4f8", anchor="w", width=16,
+    ).grid(row=baris, column=kolom, padx=(10, 5), pady=6, sticky="w")
+ 
