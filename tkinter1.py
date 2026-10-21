@@ -15,3 +15,6 @@ def hasil_prediksi():
 # ---------- Jendela utama ----------
 root = tk.Tk()
 root.title("Aplikasi Prediksi Prodi Pilihan")
+root.geometry("520x470")
+root.resizable(False, False)
+root.configure(bg="#f0f4f8")
