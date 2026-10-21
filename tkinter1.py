@@ -26,3 +26,5 @@ label_judul = tk.Label(
     font=("Segoe UI", 18, "bold"),
     bg="#f0f4f8",
     fg="#1f3a5f",
+    )
+label_judul.pack(pady=(20, 5))
