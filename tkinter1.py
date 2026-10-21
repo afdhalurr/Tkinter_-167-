@@ -36,3 +36,5 @@ tk.Label(
     bg="#f0f4f8",
     fg="#555555",
 ).pack(pady=(0, 10))
+
+# ---------- Frame input nilai (10 input, 2 kolom x 5 baris) ----------
