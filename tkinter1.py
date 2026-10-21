@@ -40,3 +40,6 @@ tk.Label(
 # ---------- Frame input nilai (10 input, 2 kolom x 5 baris) ----------
 frame_input = tk.Frame(root, bg="#f0f4f8")
 frame_input.pack(pady=5)
+
+entries = []
+for i, mapel in enumerate(MAPEL):
