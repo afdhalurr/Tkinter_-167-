@@ -43,3 +43,6 @@ frame_input.pack(pady=5)
 
 entries = []
 for i, mapel in enumerate(MAPEL):
+     kolom = (i // 5) * 2      # 0 atau 2
+    baris = i % 5
+    tk.Label(
