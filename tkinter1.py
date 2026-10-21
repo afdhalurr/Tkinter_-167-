@@ -21,3 +21,8 @@ root.configure(bg="#f0f4f8")
 
 # ---------- Label judul ----------
 label_judul = tk.Label(
+    root,
+    text="Aplikasi Prediksi Prodi Pilihan",
+    font=("Segoe UI", 18, "bold"),
+    bg="#f0f4f8",
+    fg="#1f3a5f",
